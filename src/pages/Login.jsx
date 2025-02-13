@@ -6,7 +6,7 @@ function Login() {
     const navigate = useNavigate();
 
     function Submit() {
-        if (username !== "") {
+        if (username != "") {
             toggleLoggedIn(); 
             navigate("/marks");
         }
