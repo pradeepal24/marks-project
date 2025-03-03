@@ -6,12 +6,13 @@ function Login() {
     const navigate = useNavigate();
 
     function Submit() {
-        if (username != "") {
+        if (username === "abc") {
             toggleLoggedIn(); 
-            navigate("/marks");
+            navigate("/marks-project/marks");
         }
-        else if(username == ""){
+        else {
             window.alert(`enter Valid Email`);
+            navigate("/marks-project");
         }
         
     }

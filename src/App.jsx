@@ -10,9 +10,9 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/marks" element={<TableComponent />} />
-          <Route path="/" element={<Login />} />
-          <Route path="/Navbar" element={<Navbar />} />
+          <Route path="/marks-project/marks" element={<TableComponent />} />
+          <Route path="/marks-project/" element={<Login />} />
+          <Route path="/marks-project/Navbar" element={<Navbar />} />
         </Routes>
       </div>
     </>
